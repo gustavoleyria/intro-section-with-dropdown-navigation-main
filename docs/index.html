@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Epilogue">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+
+</head>
+<body>
+  <div class="navbar">
+    <ul class="navlist">
+      <li class="snap">snap</li>
+      <li class="features">
+        <p id="icondown">Features<div class="imgicon"></div></p>
+        <ul class="featuresList">
+          <li><img src="../images/icon-todo.svg"/>Todo List</li>
+          <li><img src="../images/icon-calendar.svg"/>Calendar</li>
+          <li><img src="../images/icon-reminders.svg"/>Reminder</li>
+          <li><img src="../images/icon-planning.svg"/>Planning</li>
+        </ul>
+      </li>
+      <li class="company">
+        <p id="iconup">Company<div class="imgiconup"></div></p>
+        <ul class="companyList">
+          <li>History</li>
+          <li>Our Team</li>
+          <li>Blog</li>
+        </ul>
+      </li>
+      <li class="list">Careers</li>
+      <li class="list">About</li>
+      <li class="list2"></li>
+      <li class="login">Login</li>
+      <li class="button"><button type="submit">Register</button></li>
+    </ul>
+  </div>
+
+
+
+  <div class="navbarMobile" id="navbarMobile">
+    <div class="snapmenu">
+      snap
+    </div>
+    <nav class="menu">
+      <input type="checkbox" id="menu" onchange="javascript:ShowImg()">
+      <label for="menu">
+        <div id="imgmenu"><img src="../images/menu.png" alt="menu" class="imgmenu"></div>
+        <div  id="imgx"><img src="../images/x.png" alt="x" class="imgx"></div>
+      </label>
+        <ul class="ulMb">
+          <li class="colador"></li>
+          <li class="featuresMb">
+            <p id="icondownMb">Features<div class="imgiconMb"></div></p>
+            <ul class="featuresListMb">
+              <li><img src="../images/icon-todo.svg"/>Todo List</li>
+              <li><img src="../images/icon-calendar.svg"/>Calendar</li>
+              <li><img src="../images/icon-reminders.svg"/>Reminder</li>
+              <li><img src="../images/icon-planning.svg"/>Planning</li>
+            </ul>
+          </li>
+          <li class="companyMb">
+            <p id="iconupMb">Company<div class="imgiconupMb"></div></p>
+            <ul class="companyListMb">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </li>
+          <li class="listMb">Careers</li>
+          <li class="listMb">About</li>
+          <li class="list2Mb"></li>
+          <li class="loginMb">Login</li>
+          <li class="buttonMb"><button type="submit">Register</button></li>
+        </ul>
+    </nav>    
+  </div>
+
+  <div class="container">
+    <div class="left">
+      <h1>Make <br class="br">remote work</h1>
+      <p>Get your team in sync, no matter your <br class="brd">location.<br class="br">
+        Streamline processes, create <br class="brd">team rituals, and<br class="br"> 
+        watch productivity soar.
+      </p>
+      <button type="submit">Learn more</button>
+      <ul class="ulmobile">
+        <li style="margin-left: -11%;" class="li"><img src="../images/client-databiz.svg" /></li>
+        <li class="li"><img src="../images/client-audiophile.svg" /></li>
+        <li class="li"><img src="../images/client-meet.svg" /></li>
+        <li class="li"><img src="../images/client-maker.svg" /></li>
+      </ul>
+    </div>
+
+    <div class="right">
+      <img src="../images/image-hero-desktop.png" alt="image-hero-desktop" class="imgdesk">
+      <img src="../images/image-hero-mobile.png" alt="image-hero-mobile" class="imgmobile">
+    </div>
+  </div>
+
+<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
