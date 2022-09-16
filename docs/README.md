@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/gustavoleyria/interactive-card-details-form-main.git
-- Live Site URL: https://gustavoleyria.github.io/interactive-card-details-form-main/
+- Solution URL: https://github.com/gustavoleyria/intro-section-with-dropdown-navigation-main.git
+- Live Site URL: https://gustavoleyria.github.io/intro-section-with-dropdown-navigation-main/
 
 ## My process
 
